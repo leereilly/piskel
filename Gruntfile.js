@@ -303,7 +303,7 @@ module.exports = function(grunt) {
       macos : {
         options: {
           osx64: true,
-          version : "0.12.3",
+          version : "0.15.4",
           build_dir: './dest/desktop/'
         },
         src: ['./dest/prod/**/*', "./package.json", "!./dest/desktop/"]
